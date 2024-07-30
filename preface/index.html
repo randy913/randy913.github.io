@@ -21,103 +21,104 @@
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
-	$(".scroll").click(function(event){
+	$(".scroll").click(function(event){		
 		event.preventDefault();
 		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 	});
 });
 </script>
-<!---- start-smoth-scrolling---->
+ <!---- start-smoth-scrolling---->
 </head>
 <body>
-<!-- container -->
-<!-- header -->
-<div id="home" class="header">
-	<div class="container">
-		<!-- top-hedader -->
-		<div class="top-header">
-			<!-- /logo -->
-			<!--top-nav---->
-			<div class="top-nav">
+	<!-- container -->
+		<!-- header -->
+		<div id="home" class="header">
+			<div class="container">
+			<!-- top-hedader -->
+			<div class="top-header">
+				<!-- /logo -->
+				<!--top-nav---->
+				<div class="top-nav">
 				<div class="navigation">
-					<div class="logo">
-						<h1><a href="index.html"><span>P</span>REFACE</a></h1>
-					</div>
-					<div class="navigation-right">
-						<span class="menu"><img src="images/menu.png" alt=" " /></span>
-						<nav class="link-effect-3" id="link-effect-3">
-							<ul class="nav1 nav nav-wil">
-								<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
-								<li><a class="scroll" data-hover="About" href="#about">About</a></li>
-								<li><a class="scroll" data-hover="Specialty" href="#services" >Specialty</a></li>
-								<li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
-								<li><a class="scroll" data-hover="LICENSE" href="#LICENSE">LICENSE</a></li>
-								<li><a class="scroll" data-hover="CASE" href="#CASE">CASE</a></li>
-								<!--<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>-->
-							</ul>
-						</nav>
-						<!-- script-for-menu -->
-						<script>
-							$( "span.menu" ).click(function() {
-								$( "ul.nav1" ).slideToggle( 300, function() {
-								// Animation complete.
-								});
-							});
-						</script>
-						<!-- /script-for-menu -->
-					</div>
-					<div class="clearfix"></div>
+				<div class="logo">
+					<h1><a href="index.html"><span>P</span>REFACE</a></h1>
 				</div>
+				<div class="navigation-right">
+					<span class="menu"><img src="images/menu.png" alt=" " /></span>
+					<nav class="link-effect-3" id="link-effect-3">
+						<ul class="nav1 nav nav-wil">
+							<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+							<li><a class="scroll" data-hover="About" href="#about">About</a></li>
+							<li><a class="scroll" data-hover="Specialty" href="#services" >Specialty</a></li>
+							<li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+							<li><a class="scroll" data-hover="LICENSE" href="#LICENSE">LICENSE</a></li>
+							<li><a class="scroll" data-hover="CASE" href="#CASE">CASE</a></li>
+							<!--<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>-->
+						</ul>
+					</nav>
+					<!-- script-for-menu -->
+					<script>
+						$( "span.menu" ).click(function() {
+							$( "ul.nav1" ).slideToggle( 300, function() {
+							// Animation complete.
+							});
+						});
+					</script>
+					<!-- /script-for-menu -->
+				</div>
+				<div class="clearfix"></div>
+			</div>
 			<!-- /top-hedader -->
 			</div>
-			<div class="banner-info">
-				<div class="col-md-7 header-right">
-					<h1>Hi !</h1>
-					<!--<h6>UX & UI DESIGNER</h6>-->
-					<ul class="address">
-						<li>
-							<ul class="address-text">
-								<li><b>姓名</b></li>
-								<li>吳信融</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>學歷</b></li>
-								<li>遠東科技大學-資訊管理系(畢)</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>兵役狀況</b></li>
-								<li>空軍儀隊 役畢( 退伍：2013/06 )</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>電話</b></li>
-								<li>0920-926-525</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>E-MAIL </b></li>
-								<li><a href="mailto:sky940811@gmail.com"> sky940811@gmail.com</a></li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>WEBSITE </b></li>
-								<li><a href="http://sky940811.pixnet.net/blog" target="http://sky940811.pixnet.net/blog">http://sky940811.pixnet.net/blog</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-5 header-left">
-					<img src="images/img1.jpg" alt="">
-				</div>
-				<div class="clearfix"> </div>
+		<div class="banner-info">
+			<div class="col-md-7 header-right">
+				<h1>Hi !</h1>
+				<!--<h6>UX & UI DESIGNER</h6>-->
+				<ul class="address">
+					<li>
+						<ul class="address-text">
+							<li><b>姓名</b></li>
+							<li>吳信融</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="address-text">
+							<li><b>學歷</b></li>
+							<li>遠東科技大學-資訊管理系(畢)</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="address-text">
+							<li><b>兵役狀況</b></li>
+							<li>空軍儀隊 役畢( 退伍：2013/06 )</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="address-text">
+							<li><b>電話</b></li>
+							<li>0920-926-525</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="address-text">
+							<li><b>E-MAIL </b></li>
+							<li><a href="mailto:sky940811@gmail.com"> sky940811@gmail.com</a></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="address-text">
+							<li><b>WEBSITE </b></li>
+							<li><a href="http://sky940811.pixnet.net/blog" target="http://sky940811.pixnet.net/blog">http://sky940811.pixnet.net/blog</a></li>
+						</ul>
+					</li>
+				</ul>
 			</div>
+			<div class="col-md-5 header-left">
+				<img src="images/img1.jpg" alt="">
+			</div>
+			<div class="clearfix"> </div>
+					
+		  </div>
 		</div>
 	</div>
 </div>
@@ -152,125 +153,125 @@ jQuery(document).ready(function($) {
 			</div>
 		</div>
 		<div class="col-md-6 about-right">
-
+			
 		</div>
 		<div class="clearfix"> </div>
 		<link href="css/owl.carousel.css" rel="stylesheet">
 		<script src="js/owl.carousel.js"></script>
-		<script>
-			$(document).ready(function() {
-				$("#owl-demo1").owlCarousel({
-					items : 1,
-					lazyLoad : false,
-					autoPlay : false,
-					navigation : false,
-					navigationText :  false,
-					pagination : true,
-				});
+	<script>
+		$(document).ready(function() {
+			$("#owl-demo1").owlCarousel({
+				items : 1,
+				lazyLoad : false,
+				autoPlay : false,
+				navigation : false,
+				navigationText :  false,
+				pagination : true,
 			});
-		</script>
-		<!-- Feedback -->
-		<script>
-			$(document).ready(function() {
-				$("#owl-demo3").owlCarousel({
-					items : 1,
-					lazyLoad : false,
-					autoPlay : false,
-					navigation : false,
-					navigationText :  true,
-					pagination :true,
-				});
+		});
+	</script>
+	<!-- Feedback -->
+	<script>
+		$(document).ready(function() {
+			$("#owl-demo3").owlCarousel({
+				items : 1,
+				lazyLoad : false,
+				autoPlay : false,
+				navigation : false,
+				navigationText :  true,
+				pagination :true,
 			});
-		</script>
-		</div>
-		<!-- /about -->
-		<!-- services -->
-		<div id="services" class="services">
-			<div class="container">
-				<div class="service-head one text-center ">
-					<h4>WHAT I DO</h4>
-					<h3><span>專長</span></h3>
-					<span class="border two"></span>
-				</div>
-				<!-- services-grids -->
-				<div class="wthree_about_right_grids w3l-agile">
-					<div class="col-md-6 wthree_about_right_grid">
-						<div class="col-xs-4 wthree_about_right_grid_left">
-							<div class="hvr-rectangle-in">
-								<i class="glyphicon glyphicon-leaf"></i>
-							</div>
+		});
+	</script>
+	</div>
+	<!-- /about -->
+	<!-- services -->
+	<div id="services" class="services">
+		<div class="container">
+			<div class="service-head one text-center ">
+				<h4>WHAT I DO</h4>
+				<h3><span>專長</span></h3>
+				<span class="border two"></span>
+			</div>
+			<!-- services-grids -->
+			<div class="wthree_about_right_grids w3l-agile">
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
 						</div>
-						<div class="col-xs-8 wthree_about_right_grid_right">
-							<h4>作業系統</h4>
-							<p>Windows(XP, 7, 8, 10, 11), Windows Server(2003, 2012), Linux, Android, iOS</p><br/>
-						</div>
-						<div class="clearfix"> </div>
 					</div>
-					<div class="col-md-6 wthree_about_right_grid">
-						<div class="col-xs-4 wthree_about_right_grid_left">
-							<div class="hvr-rectangle-in">
-								<i class="glyphicon glyphicon-leaf"></i>
-							</div>
-						</div>
-						<div class="col-xs-8 wthree_about_right_grid_right">
-							<h4>辦公室應用</h4>
-							<p>Word, Excel, PowerPoint</p><br/>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 wthree_about_right_grid">
-						<div class="col-xs-4 wthree_about_right_grid_left">
-							<div class="hvr-rectangle-in">
-								<i class="glyphicon glyphicon-leaf"></i>
-							</div>
-						</div>
-						<div class="col-xs-8 wthree_about_right_grid_right">
-							<h4>程式設計</h4>
-							<p>PHP, AJAX, jQuery, Java Script, HTML, CSS</p><br/><br/>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 wthree_about_right_grid">
-						<div class="col-xs-4 wthree_about_right_grid_left">
-							<div class="hvr-rectangle-in">
-								<i class="glyphicon glyphicon-leaf"></i>
-							</div>
-						</div>
-						<div class="col-xs-8 wthree_about_right_grid_right">
-							<h4>資料庫</h4>
-							<p>MySQL, MSSQL, Access</p><br/><br/>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 wthree_about_right_grid">
-						<div class="col-xs-4 wthree_about_right_grid_left">
-							<div class="hvr-rectangle-in">
-								<i class="glyphicon glyphicon-leaf"></i>
-							</div>
-						</div>
-						<div class="col-xs-8 wthree_about_right_grid_right">
-							<h4>影像處理</h4>
-							<p>PhotoShop, PhotoImpact</p><br/>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 wthree_about_right_grid">
-						<div class="col-xs-4 wthree_about_right_grid_left">
-							<div class="hvr-rectangle-in">
-								<i class="glyphicon glyphicon-leaf"></i>
-							</div>
-						</div>
-						<div class="col-xs-8 wthree_about_right_grid_right">
-							<h4>其它</h4>
-							<p>威力導演, WordPress, Bootstrap, Joomla, VirtualBox, SEO</p><br/>
-						</div>
-						<div class="clearfix"> </div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>作業系統</h4>
+						<p>Windows(XP, 7, 8, 10, 11), Windows Server(2003, 2012), Linux, Android, iOS</p><br/>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<!-- services-grids -->
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>辦公室應用</h4>
+						<p>Word, Excel, PowerPoint, Outlook</p><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>程式設計</h4>
+						<p>PHP, AJAX, jQuery, Java Script, HTML, CSS, Bootstrap</p><br/><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>資料庫</h4>
+						<p>MySQL, MSSQL, Access</p><br/><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>影像處理</h4>
+						<p>PhotoShop, PhotoImpact</p><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>其它</h4>
+						<p>威力導演, WordPress, Joomla, VirtualBox, SEO</p><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
 			</div>
+			<!-- services-grids -->
 		</div>
+	</div>
 	<!-- services -->
 	<!--work-experience-->
 <div id="work" class="work">
@@ -282,8 +283,8 @@ jQuery(document).ready(function($) {
 		</div>
 		<div class="time-main w3l-agile">
 			<div class="col-md-6 year-info">
-			   <ul class="year">
-			   		<li id="goe7" style="cursor: pointer;">2018/08 – 現在</li>
+				<ul class="year">
+					<li id="goe7" style="cursor: pointer;">2018/08 – 現在</li>
 					<li id="goe6" style="cursor: pointer;">2015/07 – 2018-07<br/>(共 3 年 1 個月)</li>
 					<li id="goe5" style="cursor: pointer;">2013/07 – 2015/07<br/>(共 2 年 1 個月)</li>
 					<li id="goe4" style="cursor: pointer;">2011/11 – 2012/04<br/>(共 0 年 6 個月)</li>
@@ -292,7 +293,7 @@ jQuery(document).ready(function($) {
 					<li id="goe1" style="cursor: pointer;">2009/04 - 2010/03<br/>(共 1 年 0 個月)</li>
 					<div class="clearfix"></div>
 				</ul>
-			</div> 
+			</div>
 			<ul class="col-md-6 timeline">
 				<li id="e7">
 					<div class="timeline-badge warning"><i class="glyphicon glyphicon-briefcase"></i></div>
@@ -306,7 +307,8 @@ jQuery(document).ready(function($) {
 							-內部系統開發與維護<br>(文件管理系統、QC檢驗系統、Sales專案管理系統、HR差勤系統、產品資料庫、ERP系統報表、報廢系統)<br/>
 							-對外系統維護(架設在Microsoft Azure)<br>
 							-協助開發德國參展Demo系統與安裝測試<br>(Embedded World德國嵌入式電子與工業電腦應用展)<br>
-							-依各單位需求開發系統
+							-依各單位需求開發系統與功能<br>
+							-教學文件製作
 							<br/><br/>
 
 							2.系統管理與維護<br/>
@@ -320,9 +322,11 @@ jQuery(document).ready(function($) {
 							<br/><br/>
 
 							3.其它<br/>
+							-員工教育訓練<br>
+							-機房設備管理與維護<br>
 							-協助ISO 9001申請與維護<br>
 							-電腦(PC、NB)升級作業(更換零件)<br>
-							-網路環境優化(建立Mesh Wifi環境)<br>
+							-網路環境優化(建立Mesh WiFi環境)<br>
 							-建立公司資料備份機制<br>
 							-台南、台北、義大利公司電腦軟硬體狀況排解
 							</p>
@@ -334,7 +338,7 @@ jQuery(document).ready(function($) {
 					<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
 					<div class="timeline-panel">
 						<div class="timeline-heading">
-							<h4 class="timeline-title">教育部資訊志工營運中心 / PG程式設計師</h4>
+							<h4 class="timeline-title">教育部資訊志工營運中心 / 程式設計師</h4>
 						</div>
 						<div class="timeline-body">
 							<p>
@@ -598,12 +602,12 @@ jQuery(document).ready(function($) {
 		</div>
 		<div class="news-grid w3l-agile">
 			<div class="col-md-6 news-img">
-				<a href="http://www.teatop.com.tw/eorder/login.php" target="_blank">
-					<img src="images/teatop.png" alt="TeaTop" class="img-responsive">
-				</a>
+			  <a href="http://www.teatop.com.tw/eorder/login.php" target="_blank">
+			  	<img src="images/teatop.png" alt="TeaTop" class="img-responsive">
+			  </a>
 			</div>
 			<div class="col-md-6 news-text">
-				<h3> <a href="http://www.teatop.com.tw/eorder/login.php" target="_blank">TeaTop訂貨系統</a></h3>
+				<h3> <a href="https://www.teatop-one.com.tw/eorder/login.php" target="_blank">TeaTop訂貨系統</a></h3>
 				<p>
 				幫中部連鎖手搖店【TeaTop】，開發一個電子訂貨系統<br/><br/>
 
@@ -624,7 +628,7 @@ jQuery(document).ready(function($) {
 				-ajax
 
 				</p>
-				<a href="http://www.teatop.com.tw/eorder/login.php" target="_blank" class="read hvr-shutter-in-horizontal">Read More</a>
+				<a href="https://www.teatop-one.com.tw/eorder/login.php" target="_blank" class="read hvr-shutter-in-horizontal">Read More</a>
 			</div>
 
 			<div class="clearfix"></div>
@@ -636,7 +640,7 @@ jQuery(document).ready(function($) {
 				</a>
 			</div>
 			<div class="col-md-6 news-text">
-				<h3> <a href="http://www.inark.feu.edu.tw/feucgc/" target="_blank">in-ark遠東</a></h3>
+			   <h3> <a href="http://www.inark.feu.edu.tw/feucgc/" target="_blank">in-ark遠東</a></h3>
 				<!--
 				<ul class="news">
 					<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
@@ -676,7 +680,7 @@ jQuery(document).ready(function($) {
 				</a>
 			</div>
 			<div class="col-md-6 news-text">
-				<h3> <a href="https://y055.itraining.tw/" target="_blank">課程影片後製</a></h3>
+				<h3> <a href="https://yc-learning.com.tw/" target="_blank">課程影片後製</a></h3>
 				<p>
 				幫永誠諮詢顧問有限公司將課程影片上字幕，並於影片加上公司Logo浮水印<br/><br/>
 
@@ -684,7 +688,7 @@ jQuery(document).ready(function($) {
 				威力導演
 
 				</p>
-				<a href="https://y055.itraining.tw/" target="_blank" class="read hvr-shutter-in-horizontal">Read More</a>
+				<a href="https://yc-learning.com.tw/" target="_blank" class="read hvr-shutter-in-horizontal">Read More</a>
 			</div>
 			<div class="clearfix"></div>
 		</div>
