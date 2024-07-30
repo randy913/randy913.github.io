@@ -1,127 +1,131 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-<title>個人簡歷</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css?07272" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="format-detection" content="telephone=no"/>
-<meta name="keywords" content="" />
-<!-- webfonts -->
-<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-<!-- webfonts -->
-<!---- start-smoth-scrolling---->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-	$(".scroll").click(function(event){		
-		event.preventDefault();
-		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-	});
-});
-</script>
- <!---- start-smoth-scrolling---->
+	<title>個人簡歷</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Custom Theme files -->
+	<link href="css/style.css?07272" rel='stylesheet' type='text/css' />
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="" />
+	<!-- webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<!-- webfonts -->
+	<!---- start-smoth-scrolling---->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!---- start-smoth-scrolling---->
 </head>
+
 <body>
 	<!-- container -->
-		<!-- header -->
-		<div id="home" class="header">
-			<div class="container">
+	<!-- header -->
+	<div id="home" class="header">
+		<div class="container">
 			<!-- top-hedader -->
 			<div class="top-header">
 				<!-- /logo -->
 				<!--top-nav---->
 				<div class="top-nav">
-				<div class="navigation">
-				<div class="logo">
-					<h1><a href="index.html"><span>P</span>REFACE</a></h1>
+					<div class="navigation">
+						<div class="logo">
+							<h1><a href="index.html"><span>P</span>REFACE</a></h1>
+						</div>
+						<div class="navigation-right">
+							<span class="menu"><img src="images/menu.png" alt=" " /></span>
+							<nav class="link-effect-3" id="link-effect-3">
+								<ul class="nav1 nav nav-wil">
+									<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+									<li><a class="scroll" data-hover="About" href="#about">About</a></li>
+									<li><a class="scroll" data-hover="Specialty" href="#services">Specialty</a></li>
+									<li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+									<li><a class="scroll" data-hover="LICENSE" href="#LICENSE">LICENSE</a></li>
+									<li><a class="scroll" data-hover="CASE" href="#CASE">CASE</a></li>
+									<!--<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>-->
+								</ul>
+							</nav>
+							<!-- script-for-menu -->
+							<script>
+								$("span.menu").click(function () {
+									$("ul.nav1").slideToggle(300, function () {
+										// Animation complete.
+									});
+								});
+							</script>
+							<!-- /script-for-menu -->
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<!-- /top-hedader -->
 				</div>
-				<div class="navigation-right">
-					<span class="menu"><img src="images/menu.png" alt=" " /></span>
-					<nav class="link-effect-3" id="link-effect-3">
-						<ul class="nav1 nav nav-wil">
-							<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
-							<li><a class="scroll" data-hover="About" href="#about">About</a></li>
-							<li><a class="scroll" data-hover="Specialty" href="#services" >Specialty</a></li>
-							<li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
-							<li><a class="scroll" data-hover="LICENSE" href="#LICENSE">LICENSE</a></li>
-							<li><a class="scroll" data-hover="CASE" href="#CASE">CASE</a></li>
-							<!--<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>-->
+				<div class="banner-info">
+					<div class="col-md-7 header-right">
+						<h1>Hi !</h1>
+						<!--<h6>UX & UI DESIGNER</h6>-->
+						<ul class="address">
+							<li>
+								<ul class="address-text">
+									<li><b>姓名</b></li>
+									<li>吳信融</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>學歷</b></li>
+									<li>遠東科技大學-資訊管理系(畢)</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>兵役狀況</b></li>
+									<li>空軍儀隊 役畢( 退伍：2013/06 )</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>電話</b></li>
+									<li>0920-926-525</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>E-MAIL </b></li>
+									<li><a href="mailto:sky940811@gmail.com"> sky940811@gmail.com</a></li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>WEBSITE </b></li>
+									<li><a href="http://sky940811.pixnet.net/blog"
+											target="http://sky940811.pixnet.net/blog">http://sky940811.pixnet.net/blog</a>
+									</li>
+								</ul>
+							</li>
 						</ul>
-					</nav>
-					<!-- script-for-menu -->
-					<script>
-						$( "span.menu" ).click(function() {
-							$( "ul.nav1" ).slideToggle( 300, function() {
-							// Animation complete.
-							});
-						});
-					</script>
-					<!-- /script-for-menu -->
+					</div>
+					<div class="col-md-5 header-left">
+						<img src="images/img1.jpg" alt="">
+					</div>
+					<div class="clearfix"> </div>
+
 				</div>
-				<div class="clearfix"></div>
 			</div>
-			<!-- /top-hedader -->
-			</div>
-		<div class="banner-info">
-			<div class="col-md-7 header-right">
-				<h1>Hi !</h1>
-				<!--<h6>UX & UI DESIGNER</h6>-->
-				<ul class="address">
-					<li>
-						<ul class="address-text">
-							<li><b>姓名</b></li>
-							<li>吳信融</li>
-						</ul>
-					</li>
-					<li>
-						<ul class="address-text">
-							<li><b>學歷</b></li>
-							<li>遠東科技大學-資訊管理系(畢)</li>
-						</ul>
-					</li>
-					<li>
-						<ul class="address-text">
-							<li><b>兵役狀況</b></li>
-							<li>空軍儀隊 役畢( 退伍：2013/06 )</li>
-						</ul>
-					</li>
-					<li>
-						<ul class="address-text">
-							<li><b>電話</b></li>
-							<li>0920-926-525</li>
-						</ul>
-					</li>
-					<li>
-						<ul class="address-text">
-							<li><b>E-MAIL </b></li>
-							<li><a href="mailto:sky940811@gmail.com"> sky940811@gmail.com</a></li>
-						</ul>
-					</li>
-					<li>
-						<ul class="address-text">
-							<li><b>WEBSITE </b></li>
-							<li><a href="http://sky940811.pixnet.net/blog" target="http://sky940811.pixnet.net/blog">http://sky940811.pixnet.net/blog</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-5 header-left">
-				<img src="images/img1.jpg" alt="">
-			</div>
-			<div class="clearfix"> </div>
-					
-		  </div>
 		</div>
 	</div>
-</div>
 	<!-- about -->
 	<div id="about" class="about">
 		<div class="col-md-6 about-left">
@@ -130,7 +134,7 @@ jQuery(document).ready(function($) {
 					<div class="about-left-grid">
 						<h2>我是 <span>吳信融</span></h2>
 						<p>
-						曾擔任過田徑隊隊長、文書處理選手並代表學校比賽，也獲得不錯的成績。本身的專長有程式設計、資料庫規劃、網路規劃與文書處理，製作大學專題時，獨自規劃出網站的資料庫並自學PHP撰寫大部分的程式，雖然過程中遇到許多瓶頸，但最後還是順利的一一排除，並完成畢業專題，使自己的能力更上一層樓，同時是該屆專題競賽（媒體組）的第一名。
+							曾擔任過田徑隊隊長、文書處理選手並代表學校比賽，也獲得不錯的成績。本身的專長有程式設計、資料庫規劃、網路規劃與文書處理，製作大學專題時，獨自規劃出網站的資料庫並自學PHP撰寫大部分的程式，雖然過程中遇到許多瓶頸，但最後還是順利的一一排除，並完成畢業專題，使自己的能力更上一層樓，同時是該屆專題競賽（媒體組）的第一名。
 						</p>
 					</div>
 				</div>
@@ -138,7 +142,8 @@ jQuery(document).ready(function($) {
 					<div class="about-left-grid">
 						<h2>我是 <span>吳信融</span></h2>
 						<p>
-						畢業後，隨即申請提前入伍，使自己能早點服完役期進入職場，服役時的單位為空軍儀隊，期間參予了多次對外演出（國慶、元旦、基地開放、學校邀約表演等），為人生畫上了美麗的一頁。退伍後，隨即找到了第一份工作，於公司中擔任MIS，由於在公司屬一人部門，必須獨自管理公司的所有網站、系統、設備、網路環境等，並處理任何突發狀況。期間替公司網站進行改版、製作會員管理系統、線上預約系統、線上付款金流串接(歐付寶)..等功能。公司搬家時，協助重新規劃網路環境與建置，替公司省下一筆費用；也運用SEO的操作，使網站的自然排名上升；並幫公司導入NAS系統，於系統上建置FTP Server、Mail Server、DNS Server。在這期間碰到了許多不曾遇過的難題，但都能一一解決，使自己的能力更多元也更專業。
+							畢業後，隨即申請提前入伍，使自己能早點服完役期進入職場，服役時的單位為空軍儀隊，期間參予了多次對外演出（國慶、元旦、基地開放、學校邀約表演等），為人生畫上了美麗的一頁。退伍後，隨即找到了第一份工作，於公司中擔任MIS，由於在公司屬一人部門，必須獨自管理公司的所有網站、系統、設備、網路環境等，並處理任何突發狀況。期間替公司網站進行改版、製作會員管理系統、線上預約系統、線上付款金流串接(歐付寶)..等功能。公司搬家時，協助重新規劃網路環境與建置，替公司省下一筆費用；也運用SEO的操作，使網站的自然排名上升；並幫公司導入NAS系統，於系統上建置FTP
+							Server、Mail Server、DNS Server。在這期間碰到了許多不曾遇過的難題，但都能一一解決，使自己的能力更多元也更專業。
 						</p>
 					</div>
 				</div>
@@ -146,43 +151,45 @@ jQuery(document).ready(function($) {
 					<div class="about-left-grid">
 						<h2>我是 <span>吳信融</span></h2>
 						<p>
-						第二份工作是教育部的資訊志工團隊計畫，很特別的是辦公室在大學母校裡，重回母校有種特別的感覺。在計畫中一樣只有一個系統人員，因此必須一個人處理所有系統的開發與維護，期間陸陸續續開發了很多系統與網站建置，使自己的邏輯思維與程式功力都有很大的進步，同事們也誇讚說「我加入後，是由始以來計畫執行最順利的一次」，這給了我很大的鼓勵。除了系統開發外，中心會到外縣市辦理志工培訓營、領袖營、成果展..等活動，因此從活動的場勘、設備的需求確認、周邊線材與設備的準備，都必須從頭謹慎地思考，才能使活動順利的進行，同時必須隨時準備好處理活動中的突發狀況。在學校中，也因緣際會的幫諮商輔導中心開發了一個網站與線上測驗結合的系統（<a href="http://www.inark.feu.edu.tw/feucgc/" target="_blank">http://www.inark.feu.edu.tw/</a>），也透過本身SEO能力，使諮商輔導中心想要的關鍵字，能夠在搜尋引擎中，順利的在第一頁出現，同時也根據之前的經驗，給予一些網站經營的技巧與建議。
+							第二份工作是教育部的資訊志工團隊計畫，很特別的是辦公室在大學母校裡，重回母校有種特別的感覺。在計畫中一樣只有一個系統人員，因此必須一個人處理所有系統的開發與維護，期間陸陸續續開發了很多系統與網站建置，使自己的邏輯思維與程式功力都有很大的進步，同事們也誇讚說「我加入後，是由始以來計畫執行最順利的一次」，這給了我很大的鼓勵。除了系統開發外，中心會到外縣市辦理志工培訓營、領袖營、成果展..等活動，因此從活動的場勘、設備的需求確認、周邊線材與設備的準備，都必須從頭謹慎地思考，才能使活動順利的進行，同時必須隨時準備好處理活動中的突發狀況。在學校中，也因緣際會的幫諮商輔導中心開發了一個網站與線上測驗結合的系統（<a
+								href="http://www.inark.feu.edu.tw/feucgc/"
+								target="_blank">http://www.inark.feu.edu.tw/</a>），也透過本身SEO能力，使諮商輔導中心想要的關鍵字，能夠在搜尋引擎中，順利的在第一頁出現，同時也根據之前的經驗，給予一些網站經營的技巧與建議。
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-6 about-right">
-			
+
 		</div>
 		<div class="clearfix"> </div>
 		<link href="css/owl.carousel.css" rel="stylesheet">
 		<script src="js/owl.carousel.js"></script>
-	<script>
-		$(document).ready(function() {
-			$("#owl-demo1").owlCarousel({
-				items : 1,
-				lazyLoad : false,
-				autoPlay : false,
-				navigation : false,
-				navigationText :  false,
-				pagination : true,
+		<script>
+			$(document).ready(function () {
+				$("#owl-demo1").owlCarousel({
+					items: 1,
+					lazyLoad: false,
+					autoPlay: false,
+					navigation: false,
+					navigationText: false,
+					pagination: true,
+				});
 			});
-		});
-	</script>
-	<!-- Feedback -->
-	<script>
-		$(document).ready(function() {
-			$("#owl-demo3").owlCarousel({
-				items : 1,
-				lazyLoad : false,
-				autoPlay : false,
-				navigation : false,
-				navigationText :  true,
-				pagination :true,
+		</script>
+		<!-- Feedback -->
+		<script>
+			$(document).ready(function () {
+				$("#owl-demo3").owlCarousel({
+					items: 1,
+					lazyLoad: false,
+					autoPlay: false,
+					navigation: false,
+					navigationText: true,
+					pagination: true,
+				});
 			});
-		});
-	</script>
+		</script>
 	</div>
 	<!-- /about -->
 	<!-- services -->
@@ -196,74 +203,74 @@ jQuery(document).ready(function($) {
 			<!-- services-grids -->
 			<div class="wthree_about_right_grids w3l-agile">
 				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
+					<div class="col-xs-3 wthree_about_right_grid_left">
 						<div class="hvr-rectangle-in">
 							<i class="glyphicon glyphicon-leaf"></i>
 						</div>
 					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
+					<div class="col-xs-9 wthree_about_right_grid_right">
 						<h4>作業系統</h4>
-						<p>Windows(XP, 7, 8, 10, 11), Windows Server(2003, 2012), Linux, Android, iOS</p><br/>
+						<p>Windows, Windows Server, Linux, macOS, Android, iOS</p><br />
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
+					<div class="col-xs-3 wthree_about_right_grid_left">
 						<div class="hvr-rectangle-in">
 							<i class="glyphicon glyphicon-leaf"></i>
 						</div>
 					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
+					<div class="col-xs-9 wthree_about_right_grid_right">
 						<h4>辦公室應用</h4>
-						<p>Word, Excel, PowerPoint, Outlook</p><br/>
+						<p>Word, Excel, PowerPoint, Outlook</p><br />
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
+					<div class="col-xs-3 wthree_about_right_grid_left">
 						<div class="hvr-rectangle-in">
 							<i class="glyphicon glyphicon-leaf"></i>
 						</div>
 					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
+					<div class="col-xs-9 wthree_about_right_grid_right">
 						<h4>程式設計</h4>
-						<p>PHP, AJAX, jQuery, Java Script, HTML, CSS, Bootstrap</p><br/><br/>
+						<p>PHP, AJAX, jQuery, Java Script, HTML, CSS, Bootstrap</p><br /><br />
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
+					<div class="col-xs-3 wthree_about_right_grid_left">
 						<div class="hvr-rectangle-in">
 							<i class="glyphicon glyphicon-leaf"></i>
 						</div>
 					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
+					<div class="col-xs-9 wthree_about_right_grid_right">
 						<h4>資料庫</h4>
-						<p>MySQL, MSSQL, Access</p><br/><br/>
+						<p>MySQL, MSSQL, Access</p><br /><br />
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
+					<div class="col-xs-3 wthree_about_right_grid_left">
 						<div class="hvr-rectangle-in">
 							<i class="glyphicon glyphicon-leaf"></i>
 						</div>
 					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
+					<div class="col-xs-9 wthree_about_right_grid_right">
 						<h4>影像處理</h4>
-						<p>PhotoShop, PhotoImpact</p><br/>
+						<p>PhotoShop, PhotoImpact</p><br />
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
+					<div class="col-xs-3 wthree_about_right_grid_left">
 						<div class="hvr-rectangle-in">
 							<i class="glyphicon glyphicon-leaf"></i>
 						</div>
 					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
+					<div class="col-xs-9 wthree_about_right_grid_right">
 						<h4>其它</h4>
-						<p>威力導演, WordPress, Joomla, VirtualBox, SEO</p><br/>
+						<p>威力導演, WordPress, Joomla, VirtualBox, SEO</p><br />
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -274,374 +281,394 @@ jQuery(document).ready(function($) {
 	</div>
 	<!-- services -->
 	<!--work-experience-->
-<div id="work" class="work">
-	<div class="container" id="exp">
-		<div class="service-head text-center">
-			<h4>WHAT I DID</h4>
-			<h3><span>工作經歷</span></h3>
-			<span class="border one"></span>
-		</div>
-		<div class="time-main w3l-agile">
-			<div class="col-md-6 year-info">
-				<ul class="year">
-					<li id="goe7" style="cursor: pointer;">2018/08 – 現在</li>
-					<li id="goe6" style="cursor: pointer;">2015/07 – 2018-07<br/>(共 3 年 1 個月)</li>
-					<li id="goe5" style="cursor: pointer;">2013/07 – 2015/07<br/>(共 2 年 1 個月)</li>
-					<li id="goe4" style="cursor: pointer;">2011/11 – 2012/04<br/>(共 0 年 6 個月)</li>
-					<li id="goe3" style="cursor: pointer;">2011/05 – 2011/10<br/>(共 0 年 6 個月)</li>
-					<li id="goe2" style="cursor: pointer;">2011/07 – 2011/08<br/>(共 0 年 2 個月)</li>
-					<li id="goe1" style="cursor: pointer;">2009/04 - 2010/03<br/>(共 1 年 0 個月)</li>
-					<div class="clearfix"></div>
-				</ul>
+	<div id="work" class="work">
+		<div class="container" id="exp">
+			<div class="service-head text-center">
+				<h4>WHAT I DID</h4>
+				<h3><span>工作經歷</span></h3>
+				<span class="border one"></span>
 			</div>
-			<ul class="col-md-6 timeline">
-				<li id="e7">
-					<div class="timeline-badge warning"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">志贖企業有限公司(Rocktouch) / MIS Manager</h4>
-						</div>
-						<div class="timeline-body">
-							<p>
-							1.系統開發、優化、維護、異常排除<br/>
-							-內部系統開發與維護<br>(文件管理系統、QC檢驗系統、Sales專案管理系統、HR差勤系統、產品資料庫、ERP系統報表、報廢系統)<br/>
-							-對外系統維護(架設在Microsoft Azure)<br>
-							-協助開發德國參展Demo系統與安裝測試<br>(Embedded World德國嵌入式電子與工業電腦應用展)<br>
-							-依各單位需求開發系統與功能<br>
-							-教學文件製作
-							<br/><br/>
+			<div class="time-main w3l-agile">
+				<div class="col-md-6 year-info">
+					<ul class="year">
+						<li id="goe7" style="cursor: pointer;">2018/08 – 現在</li>
+						<li id="goe6" style="cursor: pointer;">2015/07 – 2018-07<br />(共 3 年 1 個月)</li>
+						<li id="goe5" style="cursor: pointer;">2013/07 – 2015/07<br />(共 2 年 1 個月)</li>
+						<li id="goe4" style="cursor: pointer;">2011/11 – 2012/04<br />(共 0 年 6 個月)</li>
+						<li id="goe3" style="cursor: pointer;">2011/05 – 2011/10<br />(共 0 年 6 個月)</li>
+						<li id="goe2" style="cursor: pointer;">2011/07 – 2011/08<br />(共 0 年 2 個月)</li>
+						<li id="goe1" style="cursor: pointer;">2009/04 - 2010/03<br />(共 1 年 0 個月)</li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<ul class="col-md-6 timeline">
+					<li id="e7">
+						<div class="timeline-badge warning"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">志贖企業有限公司(Rocktouch) / MIS Manager</h4>
+							</div>
+							<div class="timeline-body">
+								<p>
+									1.系統開發、優化、維護、異常排除<br />
+									-內部系統開發與維護<br>(文件管理系統、QC檢驗系統、Sales專案管理系統、HR差勤系統、產品資料庫、ERP系統報表、報廢系統)<br />
+									-對外系統維護(架設在Microsoft Azure)<br>
+									-協助開發德國參展Demo系統與安裝測試<br>(Embedded World德國嵌入式電子與工業電腦應用展)<br>
+									-依各單位需求開發系統與功能<br>
+									-教學文件製作
+									<br /><br />
 
-							2.系統管理與維護<br/>
-							-Microsoft 365<br>
-							-Wrike<br>
-							-VMware<br>
-							-ERP系統(WorkflowERP、SmartERP)<br>
-							-NAS(台南、台北、義大利)<br>
-							-Share Tech防火牆<br>
-							-系統權限管控
-							<br/><br/>
+									2.系統管理與維護<br />
+									-Microsoft 365<br>
+									-Wrike<br>
+									-VMware<br>
+									-ERP系統(WorkflowERP、SmartERP)<br>
+									-NAS(台南、台北、義大利)<br>
+									-Share Tech防火牆<br>
+									-系統權限管控
+									<br /><br />
 
-							3.其它<br/>
-							-員工教育訓練<br>
-							-機房設備管理與維護<br>
-							-協助ISO 9001申請與維護<br>
-							-電腦(PC、NB)升級作業(更換零件)<br>
-							-網路環境優化(建立Mesh WiFi環境)<br>
-							-建立公司資料備份機制<br>
-							-台南、台北、義大利公司電腦軟硬體狀況排解
-							</p>
-							<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+									3.其它<br />
+									-員工教育訓練<br>
+									-機房設備管理與維護<br>
+									-協助ISO 9001申請與維護<br>
+									-電腦(PC、NB)升級作業(更換零件)<br>
+									-網路環境優化(建立Mesh WiFi環境)<br>
+									-建立公司資料備份機制<br>
+									-台南、台北、義大利公司電腦軟硬體狀況排解
+								</p>
+								<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li id="e6">
-					<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">教育部資訊志工營運中心 / 程式設計師</h4>
-						</div>
-						<div class="timeline-body">
-							<p>
-							1.系統開發、優化、維護、異常排除、網站建置<br/>
-							-中心內部網站、系統維護<br/>
-							-團隊招募系統開發<br/>
-							-月報系統改版(由傳統網站改為RWD自適應網站)<br/>
-							-活動報名&管理系統開發<br/>
-							-競賽系統&評審系統開發<br/>
-							-成果網站建置(每年一個)<br/>
-							-開發內部系統方便行政作業<br/>
-							-因應教育部需求優化與開發系統功能<br/><br/>
+					</li>
+					<li id="e6">
+						<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">教育部資訊志工營運中心 / 程式設計師</h4>
+							</div>
+							<div class="timeline-body">
+								<p>
+									1.系統開發、優化、維護、異常排除、網站建置<br />
+									-中心內部網站、系統維護<br />
+									-團隊招募系統開發<br />
+									-月報系統改版(由傳統網站改為RWD自適應網站)<br />
+									-活動報名&管理系統開發<br />
+									-競賽系統&評審系統開發<br />
+									-成果網站建置(每年一個)<br />
+									-開發內部系統方便行政作業<br />
+									-因應教育部需求優化與開發系統功能<br /><br />
 
-							2.活動協助<br/>
-							-協助活動設備架設與測試<br/>
-							-協助活動期間突發狀況排除<br/>
-							-機動支援<br/><br/>
+									2.活動協助<br />
+									-協助活動設備架設與測試<br />
+									-協助活動期間突發狀況排除<br />
+									-機動支援<br /><br />
 
-							3.客服<br/>
-							-志工疑問排解
-							</p>
-							<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+									3.客服<br />
+									-志工疑問排解
+								</p>
+								<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li id="e5">
-					<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">永誠諮詢顧問有限公司 / MIS工程師</h4>
+					</li>
+					<li id="e5">
+						<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">永誠諮詢顧問有限公司 / MIS工程師</h4>
+							</div>
+							<div class="timeline-body">
+								<p>
+									1.伺服器建置與維護(FTP Server、Mail Server、DNS Server)<br />
+									2.維護公司內部網站與系統(NAS、視訊系統、公司網站、粉絲團..等)<br />
+									3.網站功能程式開發(使用PHP+MYSQL)<br />
+									4.線上說明會直播規劃與執行<br />
+									5.網路行銷(SEO操作、活動提案簡報)<br />
+									6.總公司與各分公司電腦軟硬體狀況排解<br />
+									7.客戶電腦操作教學與狀況排解(透過電話或遠端操控)<br />
+									8.技術文件製作<br />
+									9.SEO操作指導
+								</p>
+								<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+							</div>
 						</div>
-						<div class="timeline-body">
-							<p>
-							1.伺服器建置與維護(FTP Server、Mail Server、DNS Server)<br/>
-							2.維護公司內部網站與系統(NAS、視訊系統、公司網站、粉絲團..等)<br/>
-							3.網站功能程式開發(使用PHP+MYSQL)<br/>
-							4.線上說明會直播規劃與執行<br/>
-							5.網路行銷(SEO操作、活動提案簡報)<br/>
-							6.總公司與各分公司電腦軟硬體狀況排解<br/>
-							7.客戶電腦操作教學與狀況排解(透過電話或遠端操控)<br/>
-							8.技術文件製作<br/>
-							9.SEO操作指導
-							</p>
-							<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+					</li>
+					<li id="e4">
+						<div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">遠東科技大學 / 數位教材助理</h4>
+							</div>
+							<div class="timeline-body">
+								<p>將老師提供的課程資料製作成簡報(PowerPoint)，供上課使用</p>
+								<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li id="e4">
-					<div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">遠東科技大學 / 數位教材助理</h4>
-						</div>
-						<div class="timeline-body">
-							<p>將老師提供的課程資料製作成簡報(PowerPoint)，供上課使用</p>
-							<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
-						</div>
-					</div>
-				</li>
+					</li>
 
-				<li id="e3">
-					<div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">遠東科技大學 / 老師助理</h4>
+					<li id="e3">
+						<div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">遠東科技大學 / 老師助理</h4>
+							</div>
+							<div class="timeline-body">
+								<p>
+									1.電腦軟硬體狀況排除<br />
+									2.Flash動畫教材英翻中修改<br />
+									3.建置學校新聞網-遠東報報(使用joomla)
+								</p>
+								<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+							</div>
 						</div>
-						<div class="timeline-body">
-							<p>
-							1.電腦軟硬體狀況排除<br/>
-							2.Flash動畫教材英翻中修改<br/>
-							3.建置學校新聞網-遠東報報(使用joomla)
-							</p>
-							<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+					</li>
+					<li id="e2">
+						<div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">謦鴻科技股份有限公司 / 實習生</h4>
+							</div>
+							<div class="timeline-body">
+								<p>
+									1.組裝網路監控設備<br />
+									2.PC & Server系統安裝、備份<br />
+									3.外出陪同工程師處理客戶問題<br />
+									4.協助專案與工程師到場規劃設備安裝場地
+								</p>
+								<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li id="e2">
-					<div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">謦鴻科技股份有限公司 / 實習生</h4>
+					</li>
+					<li id="e1">
+						<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">大閤屋開發股份有限公司 / (兼職)外場服務人員</h4>
+							</div>
+							<div class="timeline-body">
+								<p>
+									1.幫忙客人保持桌面整潔<br />
+									2.協助客人點餐<br />
+									3.內外場聯繫<br />
+									4.處理客人離席後的餐桌還原<br />
+									5.解決客人在用餐上遇到的問題
+								</p>
+								<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
+							</div>
 						</div>
-						<div class="timeline-body">
-							<p>
-							1.組裝網路監控設備<br/>
-							2.PC & Server系統安裝、備份<br/>
-							3.外出陪同工程師處理客戶問題<br/>
-							4.協助專案與工程師到場規劃設備安裝場地
-							</p>
-							<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
-						</div>
-					</div>
-				</li>
-				<li id="e1">
-					<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">大閤屋開發股份有限公司 / (兼職)外場服務人員</h4>
-						</div>
-						<div class="timeline-body">
-							<p>
-							1.幫忙客人保持桌面整潔<br/>
-							2.協助客人點餐<br/>
-							3.內外場聯繫<br/>
-							4.處理客人離席後的餐桌還原<br/>
-							5.解決客人在用餐上遇到的問題
-							</p>
-							<div style="text-align:right;"><a href="#exp" class="goexp">Top</a></div>
-						</div>
-					</div>
-				</li>
-			</ul>
-			<div class="clearfix"></div>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
 		</div>
 	</div>
-</div>
-<!--//work-experience-->
+	<!--//work-experience-->
 
-<!-- portfolio -->
-<div class="portfolio" id="LICENSE">
-	<div class="service-head text-center">
-		<h4>MY LICENSE</h4>
-		<h3><span>證照</span></h3>
-		<span class="border"></span>
-	</div>
-	<div class="portfolio-grids">
-		<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			$(document).ready(function () {
-				$('#horizontalTab').easyResponsiveTabs({
-					type: 'default', //Types: default, vertical, accordion           
-					width: 'auto', //auto or any width like 600px
-					fit: true   // 100% fit in a container
+	<!-- portfolio -->
+	<div class="portfolio" id="LICENSE">
+		<div class="service-head text-center">
+			<h4>MY LICENSE</h4>
+			<h3><span>證照</span></h3>
+			<span class="border"></span>
+		</div>
+		<div class="portfolio-grids">
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
 				});
-			});
-		</script>
-		<div class="sap_tabs">
-			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-				<!--
+			</script>
+			<div class="sap_tabs">
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<!--
 				<ul class="resp-tabs-list">
 					<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>ALL</span></li> 
 					<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>證照</span></li> 
 					<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>成就</span></li> 				
 				</ul>
 				-->
-				<div class="resp-tabs-container">
-					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0" style="display:block">
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/MCITP.jpg" alt=""></a>
-						</div>
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/MCTS.jpg" alt=""></a>
-						</div>
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/CSA2.jpg" alt=""></a>
-						</div>
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/webdesigner2.jpg" alt=""></a>
-						</div>
-						
-						<div class="clearfix"></div>
-						
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/accounting2.jpg" alt=""></a>
-						</div>
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/Word2.jpg" alt=""></a>
-						</div>
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/Excel2.jpg" alt=""></a>
-						</div>
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/PowerPoint2.jpg" alt=""></a>
-						</div>
-						
-						<div class="clearfix"></div>
-						
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/ITE.jpg" height="" alt=""></a>
-						</div>
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal12" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/ISO 9001.jpg" height="" alt=""></a>
-						</div>
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal10" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/keyin1.jpg" alt=""></a>
-						</div>
-						<div class="col-md-3 team-gd ">
-							<a href="#portfolioModal11" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/license/keyin2.jpg" alt=""></a>
-						</div>
-						
-						<div class="clearfix"></div>
-					</div>
-					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-						<div class="col-md-3 team-gd ">
-							<div class="thumb">
-								<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
-								
-								</a>
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0" style="display:block">
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/MCITP.jpg" alt=""></a>
 							</div>
-						</div>
-						<div class="col-md-3 team-gd  ">
-							<div class="thumb">
-								<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
-								
-								</a>
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/MCTS.jpg" alt=""></a>
 							</div>
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/CSA2.jpg" alt=""></a>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/webdesigner2.jpg" alt=""></a>
+							</div>
+
+							<div class="clearfix"></div>
+
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/accounting2.jpg" alt=""></a>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/Word2.jpg" alt=""></a>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/Excel2.jpg" alt=""></a>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/PowerPoint2.jpg" alt=""></a>
+							</div>
+
+							<div class="clearfix"></div>
+
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/ITE.jpg" height="" alt=""></a>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal12" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/ISO 9001.jpg" height="" alt=""></a>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal10" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/keyin1.jpg" alt=""></a>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<a href="#portfolioModal11" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/license/keyin2.jpg" alt=""></a>
+							</div>
+
+							<div class="clearfix"></div>
 						</div>
-						<div class="col-md-3 team-gd ">
-							
-								<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
-								
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go"
+										data-toggle="modal"><img src="images/pic10.jpg" alt="">
+
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd  ">
+								<div class="thumb">
+									<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go"
+										data-toggle="modal"><img src="images/pic11.jpg" alt="">
+
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+
+								<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/pic13.jpg" alt="">
+
 								</a>
-							
+
+							</div>
+							<div class="clearfix"></div>
 						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-						<div class="col-md-3 team-gd ">
-							
-								<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.jpg" alt="">
-								
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+							<div class="col-md-3 team-gd ">
+
+								<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/pic9.jpg" alt="">
+
 								</a>
-						
-						</div>
-						<div class="col-md-3 team-gd ">
-							
-								<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.jpg" alt="">
-								
+
+							</div>
+							<div class="col-md-3 team-gd ">
+
+								<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/pic6.jpg" alt="">
+
 								</a>
-							
-						</div>
-						<div class="col-md-3 team-gd">
-							
-								<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
-								
+
+							</div>
+							<div class="col-md-3 team-gd">
+
+								<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/pic10.jpg" alt="">
+
 								</a>
-							
-						</div>
-						<div class="col-md-3 team-gd">
-							
-								<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
-							
+
+							</div>
+							<div class="col-md-3 team-gd">
+
+								<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go"
+									data-toggle="modal"><img src="images/pic11.jpg" alt="">
+
 								</a>
-							
+
+							</div>
+							<div class="clearfix"></div>
 						</div>
-						<div class="clearfix"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- //portfolio -->
-<!-- top-grids -->
-<div class="blog" id="CASE">
-	<div class="container">
-		<div class="service-head text-center">
-			<h4>CASE</h4>
-			<h3><span>接案</span></h3>
-			<span class="border one"></span>
-		</div>
-		<div class="news-grid w3l-agile">
-			<div class="col-md-6 news-img">
-			  <a href="http://www.teatop.com.tw/eorder/login.php" target="_blank">
-			  	<img src="images/teatop.png" alt="TeaTop" class="img-responsive">
-			  </a>
+	<!-- //portfolio -->
+	<!-- top-grids -->
+	<div class="blog" id="CASE">
+		<div class="container">
+			<div class="service-head text-center">
+				<h4>CASE</h4>
+				<h3><span>接案</span></h3>
+				<span class="border one"></span>
 			</div>
-			<div class="col-md-6 news-text">
-				<h3> <a href="https://www.teatop-one.com.tw/eorder/login.php" target="_blank">TeaTop訂貨系統</a></h3>
-				<p>
-				幫中部連鎖手搖店【TeaTop】，開發一個電子訂貨系統<br/><br/>
+			<div class="news-grid w3l-agile">
+				<div class="col-md-6 news-img">
+					<a href="http://www.teatop.com.tw/eorder/login.php" target="_blank">
+						<img src="images/teatop.png" alt="TeaTop" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-md-6 news-text">
+					<h3> <a href="https://www.teatop-one.com.tw/eorder/login.php" target="_blank">TeaTop訂貨系統</a></h3>
+					<p>
+						幫中部連鎖手搖店【TeaTop】，開發一個電子訂貨系統<br /><br />
 
-				【系統功能簡介】<br/>
-				1.公告發佈與管理<br/>
-				2.分店會員管理<br/>
-				3.貨品資料管理<br/>
-				4.購物車 & 線上訂購<br/>
-				5.訂貨單管理<br/>
-				6.出貨單管理<br/>
-				7.統計報表<br/><br/>
+						【系統功能簡介】<br />
+						1.公告發佈與管理<br />
+						2.分店會員管理<br />
+						3.貨品資料管理<br />
+						4.購物車 & 線上訂購<br />
+						5.訂貨單管理<br />
+						6.出貨單管理<br />
+						7.統計報表<br /><br />
 
-				【開發工具】<br/>
-				-Bootstrap<br/>
-				-PHP<br/>
-				-MySQL<br/>
-				-jQuery<br/>
-				-ajax
+						【開發工具】<br />
+						-Bootstrap<br />
+						-PHP<br />
+						-MySQL<br />
+						-jQuery<br />
+						-ajax
 
-				</p>
-				<a href="https://www.teatop-one.com.tw/eorder/login.php" target="_blank" class="read hvr-shutter-in-horizontal">Read More</a>
+					</p>
+					<a href="https://www.teatop-one.com.tw/eorder/login.php" target="_blank"
+						class="read hvr-shutter-in-horizontal">Read More</a>
+				</div>
+
+				<div class="clearfix"></div>
 			</div>
-
-			<div class="clearfix"></div>
-		</div>
-		<div class="news-grid w3l-agile">
-			<div class="col-md-6 news-img">
-				<a href="http://www.inark.feu.edu.tw/feucgc/" target="_blank">
-					<img src="images/inark.png" alt="in-ark遠東" class="img-responsive">
-				</a>
-			</div>
-			<div class="col-md-6 news-text">
-			   <h3> <a href="http://www.inark.feu.edu.tw/feucgc/" target="_blank">in-ark遠東</a></h3>
-				<!--
+			<div class="news-grid w3l-agile">
+				<div class="col-md-6 news-img">
+					<a href="http://www.inark.feu.edu.tw/feucgc/" target="_blank">
+						<img src="images/inark.png" alt="in-ark遠東" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-md-6 news-text">
+					<h3> <a href="http://www.inark.feu.edu.tw/feucgc/" target="_blank">in-ark遠東</a></h3>
+					<!--
 				<ul class="news">
 					<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
 					<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
@@ -649,352 +676,366 @@ jQuery(document).ready(function($) {
 					<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
 				</ul>
 				-->
-				<p>
-				幫遠東科技大學諮商輔導中心，開發一個輔導資源與自我學習增能系統<br/><br/>
+					<p>
+						幫遠東科技大學諮商輔導中心，開發一個輔導資源與自我學習增能系統<br /><br />
 
-				【系統功能簡介】<br/>
-				1.文章發佈與瀏覽喜好統計<br/>
-				2.活動辦理與線上報名<br/>
-				3.攝影集投稿與作品露出<br/>
-				4.線上測驗&調查與結果統計<br/>
-				5.議題投票與結果統計<br/>
-				6.線上留言<br/><br/>
+						【系統功能簡介】<br />
+						1.文章發佈與瀏覽喜好統計<br />
+						2.活動辦理與線上報名<br />
+						3.攝影集投稿與作品露出<br />
+						4.線上測驗&調查與結果統計<br />
+						5.議題投票與結果統計<br />
+						6.線上留言<br /><br />
 
-				【開發工具】<br/>
-				-Bootstrap<br/>
-				-PHP<br/>
-				-MySQL<br/>
-				-jQuery<br/>
-				-ajax
+						【開發工具】<br />
+						-Bootstrap<br />
+						-PHP<br />
+						-MySQL<br />
+						-jQuery<br />
+						-ajax
 
-				</p>
-				<a href="http://www.inark.feu.edu.tw/feucgc/" target="_blank" class="read hvr-shutter-in-horizontal">Read More</a>
-			</div>
+					</p>
+					<a href="http://www.inark.feu.edu.tw/feucgc/" target="_blank"
+						class="read hvr-shutter-in-horizontal">Read More</a>
+				</div>
 
-			<div class="clearfix"></div>
-		</div>
-		<div class="news-grid w3l-agile">
-			<div class="col-md-6 news-img">
-				<a href="https://y055.itraining.tw/" target="_blank">
-					<img src="images/yuncheng.jpg" alt="永誠諮詢顧問有限公司" class="img-responsive">
-				</a>
+				<div class="clearfix"></div>
 			</div>
-			<div class="col-md-6 news-text">
-				<h3> <a href="https://yc-learning.com.tw/" target="_blank">課程影片後製</a></h3>
-				<p>
-				幫永誠諮詢顧問有限公司將課程影片上字幕，並於影片加上公司Logo浮水印<br/><br/>
+			<div class="news-grid w3l-agile">
+				<div class="col-md-6 news-img">
+					<a href="https://y055.itraining.tw/" target="_blank">
+						<img src="images/yuncheng.jpg" alt="永誠諮詢顧問有限公司" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-md-6 news-text">
+					<h3> <a href="https://yc-learning.com.tw/" target="_blank">課程影片後製</a></h3>
+					<p>
+						幫永誠諮詢顧問有限公司將課程影片上字幕，並於影片加上公司Logo浮水印<br /><br />
 
-				【剪輯工具】<br/>
-				威力導演
+						【剪輯工具】<br />
+						威力導演
 
-				</p>
-				<a href="https://yc-learning.com.tw/" target="_blank" class="read hvr-shutter-in-horizontal">Read More</a>
+					</p>
+					<a href="https://yc-learning.com.tw/" target="_blank" class="read hvr-shutter-in-horizontal">Read
+						More</a>
+				</div>
+				<div class="clearfix"></div>
 			</div>
-			<div class="clearfix"></div>
 		</div>
 	</div>
-</div>
-<!-- top-grids -->
+	<!-- top-grids -->
 
-		<!-- /header -->
+	<!-- /header -->
 
-<!-- //footer -->
-<!-- /container -->
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<!-- //footer -->
+	<!-- /container -->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>MCITP</h3>
-						<img src="images/license/MCITP.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>MCITP</h3>
+							<img src="images/license/MCITP.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>MCTS</h3>
-						<img src="images/license/MCTS.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>MCTS</h3>
+							<img src="images/license/MCTS.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>ITE數位遊戲內容</h3>
-						<img src="images/license/ITE.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>ITE數位遊戲內容</h3>
+							<img src="images/license/ITE.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>電腦軟體應用(乙級)</h3>
-						<img src="images/license/CSA.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>電腦軟體應用(乙級)</h3>
+							<img src="images/license/CSA.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>網頁設計(丙級)</h3>
-						<img src="images/license/webdesigner.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>網頁設計(丙級)</h3>
+							<img src="images/license/webdesigner.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>會計事務(丙級)</h3>
-						<img src="images/license/accounting.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>會計事務(丙級)</h3>
+							<img src="images/license/accounting.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>TQC Word</h3>
-						<img src="images/license/Word.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>TQC Word</h3>
+							<img src="images/license/Word.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>TQC Excel</h3>
-						<img src="images/license/Excel.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>TQC Excel</h3>
+							<img src="images/license/Excel.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>TQC Excel</h3>
-						<img src="images/license/PowerPoint.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>TQC Excel</h3>
+							<img src="images/license/PowerPoint.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal10" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>中打(84.8字 / 分)</h3>
-						<img src="images/license/keyin1.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>中打(84.8字 / 分)</h3>
+							<img src="images/license/keyin1.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal11" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>英打(54.36字 / 分)</h3>
-						<img src="images/license/keyin2.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>英打(54.36字 / 分)</h3>
+							<img src="images/license/keyin2.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content port-modal">
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl"></div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal12" tabindex="-1" role="dialog"
+		aria-hidden="true">
+		<div class="modal-content port-modal">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<div class="modal-body">
-						<h3>ISO 9001:2015品質管理內部稽核員訓練</h3>
-						<img src="images/license/ISO 9001.jpg" class="img-responsive img-centered" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<div class="modal-body">
+							<h3>ISO 9001:2015品質管理內部稽核員訓練</h3>
+							<img src="images/license/ISO 9001.jpg" class="img-responsive img-centered" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!--start-smooth-scrolling-->
-<script type="text/javascript">
-$(document).ready(function() {
-	/*
-	var defaults = {
-		containerID: 'toTop', // fading element id
-		containerHoverID: 'toTopHover', // fading element hover id
-		scrollSpeed: 1200,
-		easingType: 'linear' 
-	};
-	*/
+	<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
 
-	$().UItoTop({ easingType: 'easeOutQuart' });
-	$("#goe7").click(function(){
-		var scroll_offset = $("#e7").offset(); 
-		jQuery("html,body").animate({
-			scrollTop:scroll_offset.top
-		},1000);
-	});
-	$("#goe6").click(function(){
-		var scroll_offset = $("#e6").offset(); 
-		jQuery("html,body").animate({
-			scrollTop:scroll_offset.top
-		},1000);
-	});
-	$("#goe5").click(function(){
-		var scroll_offset = $("#e5").offset(); 
-		jQuery("html,body").animate({
-			scrollTop:scroll_offset.top
-		},1000);
-	});
-	$("#goe4").click(function(){
-		var scroll_offset = $("#e4").offset(); 
-		jQuery("html,body").animate({
-			scrollTop:scroll_offset.top
-		},1000);
-	});
-	$("#goe3").click(function(){
-		var scroll_offset = $("#e3").offset(); 
-		jQuery("html,body").animate({
-			scrollTop:scroll_offset.top
-		},1000);
-	});
-	$("#goe2").click(function(){
-		var scroll_offset = $("#e2").offset(); 
-		jQuery("html,body").animate({
-			scrollTop:scroll_offset.top
-		},1000);
-	});
-	$("#goe1").click(function(){
-		var scroll_offset = $("#e1").offset(); 
-		jQuery("html,body").animate({
-			scrollTop:scroll_offset.top
-		},1000);
-	});
-	$(".goexp").click(function(){
-		var scroll_offset = $("#exp").offset(); 
-		jQuery("html,body").animate({
-			scrollTop:scroll_offset.top
-		},1000);
-	});
-});
-</script>
-<!--end-smooth-scrolling-->
-<!-- //for bootstrap working -->
-<script src="js/bootstrap.js"></script>
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			$("#goe7").click(function () {
+				var scroll_offset = $("#e7").offset();
+				jQuery("html,body").animate({
+					scrollTop: scroll_offset.top
+				}, 1000);
+			});
+			$("#goe6").click(function () {
+				var scroll_offset = $("#e6").offset();
+				jQuery("html,body").animate({
+					scrollTop: scroll_offset.top
+				}, 1000);
+			});
+			$("#goe5").click(function () {
+				var scroll_offset = $("#e5").offset();
+				jQuery("html,body").animate({
+					scrollTop: scroll_offset.top
+				}, 1000);
+			});
+			$("#goe4").click(function () {
+				var scroll_offset = $("#e4").offset();
+				jQuery("html,body").animate({
+					scrollTop: scroll_offset.top
+				}, 1000);
+			});
+			$("#goe3").click(function () {
+				var scroll_offset = $("#e3").offset();
+				jQuery("html,body").animate({
+					scrollTop: scroll_offset.top
+				}, 1000);
+			});
+			$("#goe2").click(function () {
+				var scroll_offset = $("#e2").offset();
+				jQuery("html,body").animate({
+					scrollTop: scroll_offset.top
+				}, 1000);
+			});
+			$("#goe1").click(function () {
+				var scroll_offset = $("#e1").offset();
+				jQuery("html,body").animate({
+					scrollTop: scroll_offset.top
+				}, 1000);
+			});
+			$(".goexp").click(function () {
+				var scroll_offset = $("#exp").offset();
+				jQuery("html,body").animate({
+					scrollTop: scroll_offset.top
+				}, 1000);
+			});
+		});
+	</script>
+	<!--end-smooth-scrolling-->
+	<!-- //for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
 </body>
-</html>
 
+</html>
