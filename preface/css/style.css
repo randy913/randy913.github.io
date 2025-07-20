@@ -1339,6 +1339,9 @@ span.border.two:after {
 	ul.year li:nth-child(6) {
 		margin-top: 147px;
 	}
+	ul.year li:nth-child(7) {
+		margin-top: 147px;
+	}
 	.thumb .team_pos {
 		bottom: -83px;
 		left: 0;
@@ -1430,6 +1433,9 @@ span.border.two:after {
 		margin-top: 0px!important;
 	}
 	ul.year li:nth-child(6){
+		margin-top: 0px!important;
+	}
+	ul.year li:nth-child(7){
 		margin-top: 0px!important;
 		    margin-bottom: 0em;
 	}
