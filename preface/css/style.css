@@ -476,7 +476,7 @@ span.border.one:after {
 .about-right{
 	    float: left;
 	padding:0;
-	background:url(../images/教育部次長陳良基.jpg) no-repeat 0px 0px;
+	background:url(../images/about-pic.jpg) no-repeat 0px 0px;
 	min-height:580px;
 	background-size: cover;
    -o-background-size: cover;
@@ -766,7 +766,7 @@ ul.year li {
     display: block;
 }
 ul.year li:nth-child(2){
-      margin-top: 790px;
+      margin-top: 840px;
 }
 ul.year li:nth-child(3){
 	    margin-top: 505px;
@@ -781,7 +781,7 @@ ul.year li:nth-child(6){
 	    margin-top: 123px;
 }
 ul.year li:nth-child(7){
-	    margin-top: 153px;
+	    margin-top: 15px;
 }
 .timeline-badge.success i {
     font-size: 0.9em;
@@ -1828,7 +1828,7 @@ span.border.two:after {
 		width: 42%;
 	}
 	.about-left-grid {
-		width: 93%;
+		width: 90%;
 		float: none;
 		margin-right: 0;
 		min-height: 454px;
