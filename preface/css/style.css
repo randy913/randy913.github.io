@@ -766,10 +766,10 @@ ul.year li {
     display: block;
 }
 ul.year li:nth-child(2){
-      margin-top: 680px;
+      margin-top: 845px;
 }
 ul.year li:nth-child(3){
-	    margin-top: 505px;
+	    margin-top: 510px;
 }
 ul.year li:nth-child(4){
 	    margin-top: 285px;
@@ -781,7 +781,7 @@ ul.year li:nth-child(6){
 	    margin-top: 123px;
 }
 ul.year li:nth-child(7){
-	    margin-top: 153px;
+	    margin-top: 150px;
 }
 .timeline-badge.success i {
     font-size: 0.9em;
@@ -1339,6 +1339,9 @@ span.border.two:after {
 	ul.year li:nth-child(6) {
 		margin-top: 147px;
 	}
+	ul.year li:nth-child(7) {
+		margin-top: 147px;
+	}
 	.thumb .team_pos {
 		bottom: -83px;
 		left: 0;
@@ -1430,6 +1433,9 @@ span.border.two:after {
 		margin-top: 0px!important;
 	}
 	ul.year li:nth-child(6){
+		margin-top: 0px!important;
+	}
+	ul.year li:nth-child(7){
 		margin-top: 0px!important;
 		    margin-bottom: 0em;
 	}
@@ -1828,7 +1834,7 @@ span.border.two:after {
 		width: 42%;
 	}
 	.about-left-grid {
-		width: 93%;
+		width: 90%;
 		float: none;
 		margin-right: 0;
 		min-height: 454px;
